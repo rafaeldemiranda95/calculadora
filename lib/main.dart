@@ -63,7 +63,7 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
           ContextModel cm = ContextModel();
           result = '${exp.evaluate(EvaluationType.REAL, cm)}';
         }catch(e){
-          result = "Error";
+          result = "Erro";
         }
 
       }
